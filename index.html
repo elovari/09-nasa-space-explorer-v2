@@ -25,6 +25,22 @@
     </div>
   </div>
 
+  <!-- Modal for enlarged image and details -->
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-overlay" data-close="true"></div>
+    <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" aria-label="Close">×</button>
+      <div class="modal-body">
+        <img id="modal-image" src="" alt="" />
+        <div class="modal-meta">
+          <h2 id="modal-title">Title</h2>
+          <p id="modal-date" class="date">Date</p>
+          <p id="modal-explanation">Explanation text</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script src="js/script.js"></script>
 </body>
 </html>
